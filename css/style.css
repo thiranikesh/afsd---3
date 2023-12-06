@@ -1,0 +1,35 @@
+#acpt{
+    background-color: rgb(49, 8, 8);
+    padding: 10px;
+    color: rgb(81, 174, 255);
+}
+/* type selector */
+h2 {
+    color:rgb(15, 201, 201);
+    border: 2px solid rgb(23, 9, 9);
+}
+
+/* class selctor */
+.title{
+    background-color: rgb(15, 3, 26);
+    padding-block-start: 5px;
+    color: white;
+}
+
+/* id selector */
+#acpt-2{
+
+}
+
+/* Box Model */
+.box-container{
+    background-color: aqua;
+    width: 600px;
+}
+.box-model{
+    background-color: lightpink;
+    margin: 40px;
+    border: 30px solid black;
+    padding: 40px;
+
+}

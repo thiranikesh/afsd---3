@@ -1,0 +1,73 @@
+#acpt {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+}
+
+/* type selector  */
+h2 {
+    color: rgb(14, 226, 226);
+    border: 2px solid #f08989;
+}
+
+/* class selector  */
+.title {
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+}
+
+/* id selector  */
+#acpt-2 {
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+/* child selector  */
+body > h5 {
+    background-color: darkgreen;
+    padding: 20px;
+    color: white;
+}
+
+div > p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* universal selector  */
+* {
+    /* margin: 0; */
+    /* border: 2px solid black; */
+}
+
+
+/* Box Model  */
+.box-container {
+    background-color: aqua;
+    width: 600px;
+}
+
+.box-model {
+    background-color: #f08989;
+    margin: 40px;
+    border: 30px solid black;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(194, 4, 4);
+}
