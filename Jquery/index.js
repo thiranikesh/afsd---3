@@ -1,0 +1,30 @@
+// console.log('run');
+$(document).ready(function(){
+    console.log('Run Jquery')
+})
+$('#button').click(function(){
+    $('.view').hide();
+})
+$('#button-view').click(function(){
+    $('.view').show();
+})
+//////////////////////////////////
+$('.click-home').ready(function(){
+    $('#about,#details,#price,#home').hide();
+})
+$('.click-home').click(function(){
+    $('#about,#details,#price').hide();
+    $('#home').show();
+})
+$('.click-about').click(function(){
+    $('#home,#details,#price').hide();
+    $('#about').show();
+})
+$('.click-details').click(function(){
+    $('#home,#about,#price').hide();
+    $('#details').show();
+})
+$('.click-price').click(function(){
+    $('#home,#about,#details').hide();
+    $('#price').show();
+})
