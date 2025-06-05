@@ -1,5 +1,5 @@
 #acpt {
-    background-color: crimson;
+    background-color: rgb(185, 64, 88);
     color: white;
     padding: 10px;
 }
@@ -8,13 +8,18 @@
 h2 {
     color: rgb(14, 226, 226);
     border: 2px solid #f08989;
+    width: 100px;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 10px;
+    align-content: center;
 }
 
 /* class selector  */
 .title {
-    background-color: blueviolet;
+    background-color: rgb(204, 149, 255);
     padding: 5px;
-    color: white;
+    color: rgb(94, 77, 77);
 }
 
 /* id selector  */
@@ -69,5 +74,5 @@ div > p {
 }
 
 .button:hover {
-    background-color: rgb(194, 4, 4);
+    background-color: rgb(139, 9, 9);
 }
