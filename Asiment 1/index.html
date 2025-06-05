@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asiment 1</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+
+<form class="d-flex align-items-center justify-content-center ">
+    <div class="mb-3 m-5 card bg-light" style="width: 18rem;">
+        <div class="m-2">
+            First name
+            <input type="namef" class="form-control m-2"id="fname">
+            Last name
+            <input type="namel" class="form-control m-2"id="lname">
+            Age
+            <input type="age" class="form-control m-2"id="age">
+            Address
+            <input type="address" class="form-control m-2"id="add">
+            <div class=" d-flex justify-content-center ">
+                <button onclick="arraydisplay()" type="button" class="btn btn-primary m-2">save</button>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+<div class=" m-3 d-flex flex-wrap justify-content-between" id="display">
+    <div class="mb-3 m-5 card bg-light d-flex flex-wrap justify-content-between " style="width: 18rem;">
+        <div class="m-2">
+            First name :
+            <br>
+            Last name :
+            <br>
+            Age :
+            <br>
+            Address :
+            <div class="m-2 ">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
